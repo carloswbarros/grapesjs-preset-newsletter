@@ -1,4 +1,4 @@
-export default grapesjs.plugins.add('gjs-preset-newsletter', (editor, opts) => {
+export default (editor, opts) => {
   let c = opts || {};
   let config = editor.getConfig();
   let pfx = config.stylePrefix;
@@ -275,4 +275,4 @@ export default grapesjs.plugins.add('gjs-preset-newsletter', (editor, opts) => {
     openBlocksBtn && openBlocksBtn.set('active', 1);
     //editor.trigger('change:canvasOffset');
   });
-});
+};
