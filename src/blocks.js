@@ -60,7 +60,7 @@ define(function() {
     bm.add('button', {
       label: opt.buttonBlkLabel,
       category: opt.categoryLabel,
-      content: '<a class="button">Button</a>',
+      content: '<a class="button">Botão</a>',
       attributes: {class:'gjs-fonts gjs-f-button'}
     });
     bm.add('divider', {
@@ -85,7 +85,7 @@ define(function() {
       attributes: {class:'gjs-fonts gjs-f-text'},
       content: {
        type: 'text',
-       content: 'Insert your text here',
+       content: 'Insira texto aqui',
        style: { padding: '10px' },
        activeOnRender: 1
       },
@@ -93,7 +93,7 @@ define(function() {
     bm.add('text-sect', {
       label: opt.textSectionBlkLabel,
       category: opt.categoryLabel,
-      content: '<h1 class="heading">Insert title here</h1><p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>',
+      content: '<h1 class="heading">Insira titulo aqui</h1><p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>',
       attributes: {class:'gjs-fonts gjs-f-h1p'}
     });
     bm.add('image', {
